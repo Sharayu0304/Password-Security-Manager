@@ -1,11 +1,11 @@
 **PASSWORD SECURITY MANAGER**
 
-##PROJECT OVERVIEW
+## PROJECT OVERVIEW
 It is a Java based application for managing information about password. It will take the user's information like name, email ID and also takes passwords from websites. It then checks the password strength, checks a minimum password length and saves all the information ith as taken into a text file.
 
 This project illustrates the concepts of Java Object Oriented Programming including concepts like classes, constructors, objects, inheritance, encapsulation. abstraction, interfaces, method overwriting and overloading, exception handling and file handling.
 
-##FEATURES
+## FEATURES
 1.Uses name, email ID, website name and password.(input).
 
 2.Displays user and password information.
@@ -20,7 +20,7 @@ This project illustrates the concepts of Java Object Oriented Programming includ
 
 7.Manages the file-writing errors with the help ofexception handling. 
 
-##FUNCTIONAL MODULES
+## FUNCTIONAL MODULES
 1. User Information Management
 
 It takes and displays the user's name and email ID.
@@ -54,16 +54,18 @@ Here, FileSaving.java
 5.GIT
 6.GIT HUB
     
-##PROJECT STRUCTURE
-Password-Security-Manager
-├── MainStart.java
-├── UserInfo.java
-├── InfosPassword.java
-├── StrengthManager.java
-├── FileSaving.java
-└── .gitignore
+## PROJECT STRUCTURE
 
-##CONCEPTS OF JAVA THAT ARE ILLUSTRATED ARE AS FOLLOWS
+Password-Security-Manager/
+
+├── MainStart.java  
+├── UserInfo.java  
+├── InfosPassword.java  
+├── StrengthManager.java  
+├── FileSaving.java  
+├── .gitignore
+
+## CONCEPTS OF JAVA THAT ARE ILLUSTRATED ARE AS FOLLOWS
 I have used :
 1.Constructors
 2.Classes and Objects are defined
@@ -78,7 +80,7 @@ I have used :
 11.Scanner for taking user input
 12.File Writer
 
-##SETUP AND INSTALLATION
+## SETUP AND INSTALLATION
 
 1. Check Java Installation
 
@@ -117,13 +119,13 @@ Name:
 Email ID:
 Website name:
 
-##INSTRUCTIONS FOR TESTING
+## INSTRUCTIONS FOR TESTING
 In order to test the Password Security Manager it will be needed to compile all Java files and launch the MainStart class. In the process, the user will be asked to enter the name, email ID, website name, and password. It will be possible to make sure that the application correctly displays the entered user and password details, detects the password type, and estimates whether the password is Strong, Medium, Weak, or meets the minimum password-length requirement. It will also be possible to check if the website and password details are successfully saved to the text file and if the application displays an appropriate error message in case of failure to write to the file.
 
-##screenshot
+## screenshot
 ![terminal 1 screenshot](image.png)
 
-##NON FUNCTIONAL REQUIREMENTS
+## NON FUNCTIONAL REQUIREMENTS
 Performance
 
 The application utilizes straightforward string and file operations, enabling the fast processing of the password.
