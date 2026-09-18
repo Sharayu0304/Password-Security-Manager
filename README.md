@@ -123,9 +123,7 @@ Website name:
 In order to test the Password Security Manager it will be needed to compile all Java files and launch the MainStart class. In the process, the user will be asked to enter the name, email ID, website name, and password. It will be possible to make sure that the application correctly displays the entered user and password details, detects the password type, and estimates whether the password is Strong, Medium, Weak, or meets the minimum password-length requirement. It will also be possible to check if the website and password details are successfully saved to the text file and if the application displays an appropriate error message in case of failure to write to the file.
 
 ## screenshot
-
-![alt text](image-1.png)
-
+![alt text](image-2.png)
 ## NON FUNCTIONAL REQUIREMENTS
 Performance
 
